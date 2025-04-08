@@ -107,11 +107,7 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
-.cards-studies{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-}
+
 
 .card {
     margin:0%;
@@ -165,7 +161,7 @@ display:inline-block;
 }
 .study-header{
     width:100%;
-    height:100px;
+    height:auto;
     img{
         object-fit: contain;
     }
